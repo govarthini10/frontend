@@ -1,0 +1,143 @@
+body{
+position: relative; 
+background-image:url('img/home2.jpg');
+background-size:cover;
+}
+
+
+.navbar{
+  background:#D8BFD8;
+}
+nav ul li {
+  margin: 0 25px;
+  transition: transform 0.3s ease, font-size 0.3s ease; 
+}
+
+nav ul li:hover {
+  transform: scale(1.2); 
+}
+.navbar-title {
+  animation: fadeInUp 1s forwards;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1{
+text-align:center;
+}
+h3{
+text-decoration:underline;
+color:purple;
+}
+h3:hover{
+font-size:1em;
+}
+h4{
+text-align:center;
+color:purple;
+}
+h6{
+color:red;
+}
+
+.container {
+      width: 80%;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    .rating {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .rating label {
+      margin: 0 5px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .rating input[type="radio"] {
+      display: none;
+    }
+    .rating label::before {
+      content: '\2605';
+      color: #ddd;
+    }
+    .rating input[type="radio"]:checked ~ label:before {
+      color: #f8d32a; 
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="submit"] {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+    #card-errors {
+      color: red;
+      margin-bottom: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
